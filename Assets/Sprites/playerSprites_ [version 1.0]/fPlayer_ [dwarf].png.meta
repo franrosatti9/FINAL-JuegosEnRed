@@ -1,0 +1,2220 @@
+fileFormatVersion: 2
+guid: 2525094c7145af248966b59b9aeb11f2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1803867763934431570
+    second: fPlayer_ [dwarf]_0
+  - first:
+      213: -7631723006722978949
+    second: fPlayer_ [dwarf]_1
+  - first:
+      213: 4315851144438773928
+    second: fPlayer_ [dwarf]_2
+  - first:
+      213: 1335463054271031046
+    second: fPlayer_ [dwarf]_3
+  - first:
+      213: 6590535648841679712
+    second: fPlayer_ [dwarf]_4
+  - first:
+      213: 1854349396174400307
+    second: fPlayer_ [dwarf]_5
+  - first:
+      213: -1383412352268302026
+    second: fPlayer_ [dwarf]_6
+  - first:
+      213: -6567972163002686578
+    second: fPlayer_ [dwarf]_7
+  - first:
+      213: -1291354031735060217
+    second: fPlayer_ [dwarf]_8
+  - first:
+      213: 2469970047121179797
+    second: fPlayer_ [dwarf]_9
+  - first:
+      213: 4685898259974750392
+    second: fPlayer_ [dwarf]_10
+  - first:
+      213: 4479056690921717786
+    second: fPlayer_ [dwarf]_11
+  - first:
+      213: -8363103816195835267
+    second: fPlayer_ [dwarf]_12
+  - first:
+      213: 932910369631927408
+    second: fPlayer_ [dwarf]_13
+  - first:
+      213: -3079147598639507832
+    second: fPlayer_ [dwarf]_14
+  - first:
+      213: 7705720086493772593
+    second: fPlayer_ [dwarf]_15
+  - first:
+      213: -7148254165049567557
+    second: fPlayer_ [dwarf]_16
+  - first:
+      213: 822338685233754840
+    second: fPlayer_ [dwarf]_17
+  - first:
+      213: 6559117021944633469
+    second: fPlayer_ [dwarf]_18
+  - first:
+      213: -2962035923146844346
+    second: fPlayer_ [dwarf]_19
+  - first:
+      213: 7642000238245888239
+    second: fPlayer_ [dwarf]_20
+  - first:
+      213: -3443573750049290327
+    second: fPlayer_ [dwarf]_21
+  - first:
+      213: 5469966295425447054
+    second: fPlayer_ [dwarf]_22
+  - first:
+      213: -3469805229546990445
+    second: fPlayer_ [dwarf]_23
+  - first:
+      213: -3328431710579756860
+    second: fPlayer_ [dwarf]_24
+  - first:
+      213: 9080391335012283857
+    second: fPlayer_ [dwarf]_25
+  - first:
+      213: -1713535066373236631
+    second: fPlayer_ [dwarf]_26
+  - first:
+      213: 4669195763300091510
+    second: fPlayer_ [dwarf]_27
+  - first:
+      213: -3455352717402846092
+    second: fPlayer_ [dwarf]_28
+  - first:
+      213: -7690585801418308376
+    second: fPlayer_ [dwarf]_29
+  - first:
+      213: 3414710698841955666
+    second: fPlayer_ [dwarf]_30
+  - first:
+      213: -4170688140009086558
+    second: fPlayer_ [dwarf]_31
+  - first:
+      213: 8842993416559856790
+    second: fPlayer_ [dwarf]_32
+  - first:
+      213: -1327285406009642266
+    second: fPlayer_ [dwarf]_33
+  - first:
+      213: -6049310903738572012
+    second: fPlayer_ [dwarf]_34
+  - first:
+      213: -4642066245154445735
+    second: fPlayer_ [dwarf]_35
+  - first:
+      213: 3270139762744718593
+    second: fPlayer_ [dwarf]_36
+  - first:
+      213: -4809308153782770098
+    second: fPlayer_ [dwarf]_37
+  - first:
+      213: -1105098569050436188
+    second: fPlayer_ [dwarf]_38
+  - first:
+      213: 659448795619730334
+    second: fPlayer_ [dwarf]_39
+  - first:
+      213: 3140347412977954036
+    second: fPlayer_ [dwarf]_40
+  - first:
+      213: 7209728780446682242
+    second: fPlayer_ [dwarf]_41
+  - first:
+      213: 7754432966273694324
+    second: fPlayer_ [dwarf]_42
+  - first:
+      213: 8165528547122986012
+    second: fPlayer_ [dwarf]_43
+  - first:
+      213: 8600431902062712322
+    second: fPlayer_ [dwarf]_44
+  - first:
+      213: 548525012845606977
+    second: fPlayer_ [dwarf]_45
+  - first:
+      213: 8989006500277412353
+    second: fPlayer_ [dwarf]_46
+  - first:
+      213: -2375516578461710179
+    second: fPlayer_ [dwarf]_47
+  - first:
+      213: -4114414002640959056
+    second: fPlayer_ [dwarf]_48
+  - first:
+      213: 6206666415471034231
+    second: fPlayer_ [dwarf]_49
+  - first:
+      213: 8121740190441457152
+    second: fPlayer_ [dwarf]_50
+  - first:
+      213: -4574926701454638783
+    second: fPlayer_ [dwarf]_51
+  - first:
+      213: -2268395211853197852
+    second: fPlayer_ [dwarf]_52
+  - first:
+      213: 3340507737353691424
+    second: fPlayer_ [dwarf]_53
+  - first:
+      213: 3073923675512301696
+    second: fPlayer_ [dwarf]_54
+  - first:
+      213: 5661552241351137356
+    second: fPlayer_ [dwarf]_55
+  - first:
+      213: 1772390138701426947
+    second: fPlayer_ [dwarf]_56
+  - first:
+      213: 151760904153642480
+    second: fPlayer_ [dwarf]_57
+  - first:
+      213: -6467997859209487169
+    second: fPlayer_ [dwarf]_58
+  - first:
+      213: -4744989619435000021
+    second: fPlayer_ [dwarf]_59
+  - first:
+      213: -4940478681665975335
+    second: fPlayer_ [dwarf]_60
+  - first:
+      213: -8502521250422725316
+    second: fPlayer_ [dwarf]_61
+  - first:
+      213: 652712983575478006
+    second: fPlayer_ [dwarf]_62
+  - first:
+      213: -2607680507439653745
+    second: fPlayer_ [dwarf]_63
+  - first:
+      213: -2683023987245501325
+    second: fPlayer_ [dwarf]_64
+  - first:
+      213: -3767899164634537060
+    second: fPlayer_ [dwarf]_65
+  - first:
+      213: 9106957410150858978
+    second: fPlayer_ [dwarf]_66
+  - first:
+      213: -7613517591517975554
+    second: fPlayer_ [dwarf]_67
+  - first:
+      213: 3559071949778020901
+    second: fPlayer_ [dwarf]_68
+  - first:
+      213: -179422228666320969
+    second: fPlayer_ [dwarf]_69
+  - first:
+      213: 3429718368931233619
+    second: fPlayer_ [dwarf]_70
+  - first:
+      213: 430918348972887428
+    second: fPlayer_ [dwarf]_71
+  - first:
+      213: -8890886592271975081
+    second: fPlayer_ [dwarf]_72
+  - first:
+      213: 9108279433653601984
+    second: fPlayer_ [dwarf]_73
+  - first:
+      213: -2609787459627928819
+    second: fPlayer_ [dwarf]_74
+  - first:
+      213: 203730274791343718
+    second: fPlayer_ [dwarf]_75
+  - first:
+      213: -7815001787231478962
+    second: fPlayer_ [dwarf]_76
+  - first:
+      213: 989168738535718436
+    second: fPlayer_ [dwarf]_77
+  - first:
+      213: 1274237942151285331
+    second: fPlayer_ [dwarf]_78
+  - first:
+      213: -9028960925351738133
+    second: fPlayer_ [dwarf]_79
+  - first:
+      213: 3363325085752076712
+    second: fPlayer_ [dwarf]_80
+  - first:
+      213: -5010526222130109164
+    second: fPlayer_ [dwarf]_81
+  - first:
+      213: -6754265350845395234
+    second: fPlayer_ [dwarf]_82
+  - first:
+      213: -2028604843632298589
+    second: fPlayer_ [dwarf]_83
+  - first:
+      213: 4743689869117142214
+    second: fPlayer_ [dwarf]_84
+  - first:
+      213: 2246315420316957279
+    second: fPlayer_ [dwarf]_85
+  - first:
+      213: -4542361610051821913
+    second: fPlayer_ [dwarf]_86
+  - first:
+      213: -7157747318236766563
+    second: fPlayer_ [dwarf]_87
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 324
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea6f8e473df57f6e0800000000000000
+      internalID: -1803867763934431570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 324
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7bc9182c5ca61690800000000000000
+      internalID: -7631723006722978949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 324
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a87cbfdfbbf4eb30800000000000000
+      internalID: 4315851144438773928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_3
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 324
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607ab708294888210800000000000000
+      internalID: 1335463054271031046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_4
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 324
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063c1c42149467b50800000000000000
+      internalID: 6590535648841679712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_5
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 324
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b6f6873f8fbb910800000000000000
+      internalID: 1854349396174400307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_6
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 324
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63909259bc12dcce0800000000000000
+      internalID: -1383412352268302026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_7
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 324
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e832299cd10e9d4a0800000000000000
+      internalID: -6567972163002686578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_8
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 292
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709c92b9950341ee0800000000000000
+      internalID: -1291354031735060217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_9
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 292
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5944380eba8174220800000000000000
+      internalID: 2469970047121179797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_10
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 292
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b08a67f3a7a70140800000000000000
+      internalID: 4685898259974750392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_11
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 292
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a10c93f445ec82e30800000000000000
+      internalID: 4479056690921717786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_12
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 292
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7afee7836940fb80800000000000000
+      internalID: -8363103816195835267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_13
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 292
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c7035d90d52fc00800000000000000
+      internalID: 932910369631927408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_14
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 292
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8865814b29ba445d0800000000000000
+      internalID: -3079147598639507832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_15
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 292
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13bbd0e879730fa60800000000000000
+      internalID: 7705720086493772593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_16
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 260
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb69300c5bc4ccc90800000000000000
+      internalID: -7148254165049567557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_17
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 260
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d27b626da8896b00800000000000000
+      internalID: 822338685233754840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_18
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 260
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d785a350e2aa60b50800000000000000
+      internalID: 6559117021944633469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_19
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 260
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647d2ec750cb4e6d0800000000000000
+      internalID: -2962035923146844346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_20
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 260
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe0c8164ab6dd0a60800000000000000
+      internalID: 7642000238245888239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_21
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 260
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7c37e4be7f530d0800000000000000
+      internalID: -3443573750049290327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_22
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 260
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8471345d5939eb40800000000000000
+      internalID: 5469966295425447054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_23
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 260
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3941f0d0786c8dfc0800000000000000
+      internalID: -3469805229546990445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_24
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 228
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c07fb77ef80fc1d0800000000000000
+      internalID: -3328431710579756860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_25
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 228
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d531f82fc7040e70800000000000000
+      internalID: 9080391335012283857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_26
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 228
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968d5a29fec4838e0800000000000000
+      internalID: -1713535066373236631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_27
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 228
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676c24aeec05cc040800000000000000
+      internalID: 4669195763300091510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_28
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 228
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47cc581c20f1c00d0800000000000000
+      internalID: -3455352717402846092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_29
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 228
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e48cc7c5fc854590800000000000000
+      internalID: -7690585801418308376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_30
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 228
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d5337e94d736f20800000000000000
+      internalID: 3414710698841955666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_31
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 228
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a1e2d1eb3dbe16c0800000000000000
+      internalID: -4170688140009086558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_32
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 196
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c0b2109af98ba70800000000000000
+      internalID: 8842993416559856790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_33
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 196
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e23c3b94f8849de0800000000000000
+      internalID: -1327285406009642266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_34
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 196
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413e3ce98c78c0ca0800000000000000
+      internalID: -6049310903738572012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_35
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 196
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956ecb14851149fb0800000000000000
+      internalID: -4642066245154445735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_36
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 196
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105774cc9ced16d20800000000000000
+      internalID: 3270139762744718593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_37
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 196
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e46636607b7e14db0800000000000000
+      internalID: -4809308153782770098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_38
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 196
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4adc4fdd4b6e9a0f0800000000000000
+      internalID: -1105098569050436188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_39
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 196
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93297a8f25d62900800000000000000
+      internalID: 659448795619730334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_40
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 164
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc2ed57551c49b20800000000000000
+      internalID: 3140347412977954036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_41
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 164
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c4f65802a1e0460800000000000000
+      internalID: 7209728780446682242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_42
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 164
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a7255b2b74d9b60800000000000000
+      internalID: 7754432966273694324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_43
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 164
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1cb39663f8c15170800000000000000
+      internalID: 8165528547122986012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_44
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 164
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20692657f3fda5770800000000000000
+      internalID: 8600431902062712322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_45
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 164
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148341dc790cc9700800000000000000
+      internalID: 548525012845606977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_46
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 164
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10266b449cd5fbc70800000000000000
+      internalID: 8989006500277412353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_47
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 164
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d980db60248780fd0800000000000000
+      internalID: -2375516578461710179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_48
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 132
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b941b1834aa6e6c0800000000000000
+      internalID: -4114414002640959056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_49
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 132
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f7f757832822650800000000000000
+      internalID: 6206666415471034231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_50
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 132
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 006c6412ca736b070800000000000000
+      internalID: 8121740190441457152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_51
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 133
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141c85e67689280c0800000000000000
+      internalID: -4574926701454638783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_52
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 132
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed0b43c29a0580e0800000000000000
+      internalID: -2268395211853197852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_53
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 132
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021296e961edb5e20800000000000000
+      internalID: 3340507737353691424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_54
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 132
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088e299eb45c8aa20800000000000000
+      internalID: 3073923675512301696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_55
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 133
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c481d0f64cfd19e40800000000000000
+      internalID: 5661552241351137356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_56
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 100
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30134bcc07bc89810800000000000000
+      internalID: 1772390138701426947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_57
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 99
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f5bedefcb92b1200800000000000000
+      internalID: 151760904153642480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_58
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 100
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbcd4d9473e0d36a0800000000000000
+      internalID: -6467997859209487169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_59
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 100
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f29a6c419662eb0800000000000000
+      internalID: -4744989619435000021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_60
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 100
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dbc8e690d4ef6bb0800000000000000
+      internalID: -4940478681665975335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_61
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 99
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35e75598f9f00a80800000000000000
+      internalID: -8502521250422725316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_62
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 100
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe3d461007ee0900800000000000000
+      internalID: 652712983575478006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_63
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 100
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c59520568afcbd0800000000000000
+      internalID: -2607680507439653745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_64
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 68
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374316c16ebf3cad0800000000000000
+      internalID: -2683023987245501325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_65
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 68
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93a7764cabb5bbc0800000000000000
+      internalID: -3767899164634537060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_66
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 68
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e047a88389626e70800000000000000
+      internalID: 9106957410150858978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_67
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 68
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb2262b61a575690800000000000000
+      internalID: -7613517591517975554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_68
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 68
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a6390e41d546130800000000000000
+      internalID: 3559071949778020901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_69
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 68
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b7f8830f60928df0800000000000000
+      internalID: -179422228666320969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_70
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 68
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f37c36faec89f20800000000000000
+      internalID: 3429718368931233619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_71
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 68
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d0abd84fdeaf500800000000000000
+      internalID: 430918348972887428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_72
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 36
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d785110c93d9480800000000000000
+      internalID: -8890886592271975081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_73
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 36
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c64bed13eb176e70800000000000000
+      internalID: 9108279433653601984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_74
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 36
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03bb99f12c28cbd0800000000000000
+      internalID: -2609787459627928819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_75
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 36
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6664ee20b9bc3d200800000000000000
+      internalID: 203730274791343718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_76
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 36
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b5609b7498b8390800000000000000
+      internalID: -7815001787231478962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_77
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 36
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42eb7531abb3abd00800000000000000
+      internalID: 989168738535718436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_78
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 36
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a804d38a00fa110800000000000000
+      internalID: 1274237942151285331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_79
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 36
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4078930efa2b280800000000000000
+      internalID: -9028960925351738133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_80
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 4
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9a968885eecae20800000000000000
+      internalID: 3363325085752076712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_81
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 4
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415a728a2f8077ab0800000000000000
+      internalID: -5010526222130109164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_82
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 4
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede8124f2770442a0800000000000000
+      internalID: -6754265350845395234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_83
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 4
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5f8a984a2f8d3e0800000000000000
+      internalID: -2028604843632298589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_84
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 4
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4b8558dc8f4d140800000000000000
+      internalID: 4743689869117142214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_85
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 4
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a797929f38c2f10800000000000000
+      internalID: 2246315420316957279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_86
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 4
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae5d7f9e2a46f0c0800000000000000
+      internalID: -4542361610051821913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fPlayer_ [dwarf]_87
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 4
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e1e78ccb29aac90800000000000000
+      internalID: -7157747318236766563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
