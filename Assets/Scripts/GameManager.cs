@@ -4,6 +4,7 @@ using UnityEngine;
 using Photon.Pun;
 using Photon.Realtime;
 using System;
+using Photon.Voice.PUN;
 public class GameManager : MonoBehaviourPunCallbacks
 {
     public bool isStarted = false;
@@ -27,6 +28,10 @@ public class GameManager : MonoBehaviourPunCallbacks
         {
             CheckStartGame();
         }
+        else
+        {
+            PhotonNetwork.Instantiate("VoiceObject", Vector3.zero, Quaternion.identity);
+        }
 
         currentTime = 0f;
     }
@@ -42,6 +47,14 @@ public class GameManager : MonoBehaviourPunCallbacks
             currentTime += Time.deltaTime;
         }
 
+        if (Input.GetKeyDown(KeyCode.V))
+        {
+            PunVoiceClient.Instance.PrimaryRecorder.TransmitEnabled = true;
+        }
+        else if (Input.GetKeyUp(KeyCode.V))
+        {
+            PunVoiceClient.Instance.PrimaryRecorder.TransmitEnabled = false;
+        }
         //if (!PhotonNetwork.IsMasterClient) return;
         //if (Input.GetKeyDown(KeyCode.P)) CloseRoom();
     }
@@ -58,7 +71,7 @@ public class GameManager : MonoBehaviourPunCallbacks
     {
         if (PhotonNetwork.IsMasterClient)
         {
-            CloseRoom();
+            Restart();
         }
 
         // chequear diccionario de players para ver quien se fue
@@ -140,6 +153,7 @@ public class GameManager : MonoBehaviourPunCallbacks
     [PunRPC]
     public void RestartGame()
     {
+        if(PhotonNetwork.IsMasterClient) PhotonNetwork.DestroyAll(); ;
         PhotonNetwork.LoadLevel("LoadingScene");
     }
 

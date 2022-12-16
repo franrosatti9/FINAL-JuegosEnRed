@@ -9,6 +9,8 @@ public class MasterManager : MonoBehaviourPunCallbacks
     public GameManager gameManager;
     Dictionary<Player, CharacterModel> _dicChars = new Dictionary<Player, CharacterModel>();
     Dictionary<CharacterModel, Player> _dicPlayer = new Dictionary<CharacterModel, Player>();
+
+    [SerializeField] List<GameObject> obstacles = new List<GameObject>(); 
     static MasterManager _instance;
     public static MasterManager Instance
     {
@@ -122,6 +124,15 @@ public class MasterManager : MonoBehaviourPunCallbacks
         return null;
     }
 
+    public CharacterModel GetModelFromClient(Player client)
+    {
+        if (_dicChars.ContainsKey(client))
+        {
+            return _dicChars[client];
+        }
+        return null;
+    }
+
     public void DebugDictionaries()
     {
         Debug.Log("?");
@@ -139,5 +150,20 @@ public class MasterManager : MonoBehaviourPunCallbacks
         var character = pv.gameObject.GetComponent<CharacterModel>();
         _dicChars[client] = character;
         _dicPlayer[character] = client;
+    }
+
+    [PunRPC]
+    public void DeactivateObstacles()
+    {
+        for(int i = 0; i < obstacles.Count; i++)
+        {
+            obstacles[i].SetActive(false);
+        }
+    }
+
+    [PunRPC]
+    public void ForceDisconnect()
+    {
+        gameManager.QuitRoom();
     }
 }

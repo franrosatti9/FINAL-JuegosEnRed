@@ -28,4 +28,9 @@ public class FireballSpawner : MonoBehaviourPun
     {
         _audioSource.Play();
     }
+
+    private void OnDisable()
+    {
+        CancelInvoke();
+    }
 }

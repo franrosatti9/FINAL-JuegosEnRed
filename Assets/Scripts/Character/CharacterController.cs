@@ -13,6 +13,9 @@ public class CharacterController : MonoBehaviourPun
     public Vector3 _mousePos;
     public CharacterType characterType;
 
+    public bool flipX = false;
+    public bool flipY = false;
+
 
     private void OnEnable()
     {
@@ -37,8 +40,8 @@ public class CharacterController : MonoBehaviourPun
     }
     void Update()
     {
-        var horizontal = Input.GetAxisRaw("Horizontal");
-        var vertical = Input.GetAxisRaw("Vertical");
+        var horizontal = Input.GetAxisRaw("Horizontal") * (flipX ? -1 : 1);
+        var vertical = Input.GetAxisRaw("Vertical") * (flipY ? -1 : 1);
         _model.Move(new Vector2(horizontal, vertical));
 
 
@@ -51,6 +54,14 @@ public class CharacterController : MonoBehaviourPun
             }
             _model.Attack();
         }
+    }
+
+    public void FlipInput()
+    {
+        flipX = !flipX;
+        flipY = !flipY;
+        //if (flipX == true) flipX 
+
     }
 
     private void OnDisable()

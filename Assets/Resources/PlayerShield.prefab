@@ -315,6 +315,8 @@ MonoBehaviour:
   jumpKey: 32
   _mousePos: {x: 0, y: 0, z: 0}
   characterType: 2
+  flipX: 0
+  flipY: 0
 --- !u!114 &8495642625152865692
 MonoBehaviour:
   m_ObjectHideFlags: 0

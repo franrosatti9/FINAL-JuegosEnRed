@@ -22,8 +22,8 @@ public class Chaterino : MonoBehaviour, IChatClientListener
     [SerializeField] private string _commandTeleport = "/tp";
     [SerializeField] private string _commandCloseGame = "/terminate";
     [SerializeField] private string _commandKick = "/kick";
-    [SerializeField] private string _command1 = "/1";
-    [SerializeField] private string _command2 = "/2";
+    [SerializeField] private string _commandSpeed = "/speed";
+    [SerializeField] private string _commandFlipInput = "/hard";
 
 
 
@@ -118,7 +118,7 @@ public class Chaterino : MonoBehaviour, IChatClientListener
         Debug.Log(isCommand);
 
         // Sending a Whisper Command.
-        if (messageWords.Length > 2 && isCommand)
+        if (isCommand)
         {
             CheckCommand(messageWords);
         }
@@ -142,6 +142,7 @@ public class Chaterino : MonoBehaviour, IChatClientListener
             
             else if (_enabledInput == true)
             {
+                SendChatMessage();
                 DisableInput();
             }
         }
@@ -164,31 +165,39 @@ public class Chaterino : MonoBehaviour, IChatClientListener
         if (messageWords[0] == _commandTeleport)
         {
             // Teleport to Specified Player.
+            CommandTeleport(messageWords[1]);
         } 
 
         else if (messageWords[0] == _commandObstacles)
         {
             // Destroy All Obstacles in Map.
+            if (!PhotonNetwork.IsMasterClient) return;
+            CommandObstacles();
         }
 
         else if (messageWords[0] == _commandCloseGame)
         {
             // Close Game Lobby.
+            if (!PhotonNetwork.IsMasterClient) return;
+            CommandCloseGame();
         }
 
         else if (messageWords[0] == _commandKick)
         {
             // Kick Specified Player.
+            if (!PhotonNetwork.IsMasterClient) return;
+            CommandKick(messageWords[1]);
         }
 
-        else if (messageWords[0] == _command1)
+        else if (messageWords[0] == _commandSpeed)
         {
-
+            int speed = int.Parse(messageWords[1]);
+            CommandSpeed(speed);
         }
 
-        else if (messageWords[0] == _command2)
+        else if (messageWords[0] == _commandFlipInput)
         {
-
+            CommandHard();
         }
 
         else
@@ -201,9 +210,16 @@ public class Chaterino : MonoBehaviour, IChatClientListener
     /// Command for Teleporting to a Player.
     /// /tp {username}
     /// </summary>
-    private void CommandTeleport(/*Player*/)
+    private void CommandTeleport(string player)
     {
-
+        foreach(var client in PhotonNetwork.PlayerList)
+        {
+            if (client.NickName == player)
+            {
+                MasterManager.Instance.GetModelFromClient(PhotonNetwork.LocalPlayer).transform.position = MasterManager.Instance.GetModelFromClient(client).transform.position;
+                return;
+            }
+        }
     }
 
     /// <summary>
@@ -211,7 +227,7 @@ public class Chaterino : MonoBehaviour, IChatClientListener
     /// </summary>
     private void CommandObstacles()
     {
-
+        MasterManager.Instance.RPC("DeactivateObstacles", RpcTarget.All);
     }
 
     /// <summary>
@@ -219,31 +235,41 @@ public class Chaterino : MonoBehaviour, IChatClientListener
     /// </summary>
     private void CommandCloseGame()
     {
-
+        if (!PhotonNetwork.IsMasterClient) return;
+        MasterManager.Instance.gameManager.CloseRoom();
     }
 
     /// <summary>
     /// Kicks a Specified Player.
     /// /kick {username}
     /// </summary>
-    private void CommandKick(/*Player*/)
+    private void CommandKick(string player)
     {
-
+        foreach (var client in PhotonNetwork.PlayerList)
+        {
+            if (client.NickName == player)
+            {
+                MasterManager.Instance.RPC("ForceDisconnect", client);
+                return;
+            }
+        }
     }
 
     /// <summary>
     /// Extra Command 1
     /// </summary>
-    private void Command1()
+    private void CommandSpeed(int newSpeed)
     {
-
+        if (MasterManager.Instance.GetModelFromClient(PhotonNetwork.LocalPlayer) == null) return;
+        MasterManager.Instance.GetModelFromClient(PhotonNetwork.LocalPlayer).speed = newSpeed;
     }
 
     /// <summary>
     /// Extra Command 2
     /// </summary>
-    private void Command2()
+    private void CommandHard()
     {
-
+        if (MasterManager.Instance.GetModelFromClient(PhotonNetwork.LocalPlayer) == null) return;
+        MasterManager.Instance.GetModelFromClient(PhotonNetwork.LocalPlayer).GetComponent<CharacterController>().FlipInput();
     }
 }
