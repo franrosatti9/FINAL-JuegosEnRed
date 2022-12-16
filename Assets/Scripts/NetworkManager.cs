@@ -19,6 +19,11 @@ public class NetworkManager : MonoBehaviourPunCallbacks
 
         if(!PhotonNetwork.IsConnected) PhotonNetwork.OfflineMode = true;
     }
+
+    private void Update()
+    {
+        Debug.Log(PhotonNetwork.NetworkClientState);
+    }
     public override void OnConnectedToMaster()
     {
         if (PhotonNetwork.OfflineMode) return;
@@ -83,7 +88,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         PhotonNetwork.NickName = nicknameInput.text;
 
         RoomOptions options = new RoomOptions();
-        options.MaxPlayers = 3;
+        options.MaxPlayers = 5;
         options.IsOpen = true;
         options.IsVisible = true;
 

@@ -25,7 +25,7 @@ public class CharacterController : MonoBehaviourPun
         {
             GetComponent<AudioListener>().enabled = false;
             Destroy(this);
-            Destroy(weaponPivot);
+            if(!PhotonNetwork.IsMasterClient) Destroy(weaponPivot);
         }
         _model = GetComponent<CharacterModel>();  
     }
@@ -44,13 +44,18 @@ public class CharacterController : MonoBehaviourPun
 
         if (Input.GetMouseButtonDown(0))
         {
+            if (characterType == CharacterType.Archer || characterType == CharacterType.Wizard) 
+            {
+                MasterManager.Instance.RPCMaster("RequestProjectile", PhotonNetwork.LocalPlayer);
+                return;        
+            }
             _model.Attack();
         }
     }
 
     private void OnDisable()
     {
-        _model.Move(Vector2.zero);
+        //_model.Move(Vector2.zero);
     }
 }
 

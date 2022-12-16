@@ -29,6 +29,7 @@ public class CharacterModel : MonoBehaviourPun
 
     public void Attack()
     {
+        Debug.Log("model attack?????");
         if (CanAttack())
         {
             _nextAttackTime = Time.time + attackRate;
@@ -67,5 +68,6 @@ public enum CharacterType
 {
     Warrior,
     Archer,
-    Defender
+    Defender,
+    Wizard
 }

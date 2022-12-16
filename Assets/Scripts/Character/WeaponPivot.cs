@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
-public class WeaponPivot : MonoBehaviour
+public class WeaponPivot : MonoBehaviourPun
 {
     public Vector2 shootDir;
     [SerializeField] SpriteRenderer weaponRenderer;
@@ -10,6 +11,7 @@ public class WeaponPivot : MonoBehaviour
 
     void Update()
     {
+        if (!photonView.IsMine) return;
         shootDir = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
         transform.right = shootDir.normalized;
 

@@ -13,7 +13,15 @@ public class Spell : MonoBehaviourPun
 
     private void Awake()
     {
-        if (!photonView.IsMine) Destroy(this);
+        // TAL VEZ HACER QUE LO INSTANCIE EL MASTER
+
+        if (!photonView.IsMine)
+        {
+            if (!PhotonNetwork.IsMasterClient)
+            {
+                Destroy(this);
+            }
+        }
         _rb = GetComponent<Rigidbody2D>();
     }
     void Start()
@@ -25,6 +33,7 @@ public class Spell : MonoBehaviourPun
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        if (!PhotonNetwork.IsMasterClient) return;
         var selected = collision.collider.GetComponent<SpellSelectable>();
         if (selected != null)
         {
@@ -63,11 +72,12 @@ public class Spell : MonoBehaviourPun
         }
         else
         {
-            PhotonNetwork.Destroy(gameObject);
+            photonView.RPC("AutoDestroy", photonView.Owner);
+            //PhotonNetwork.Destroy(gameObject);
         }
     }
     
-
+    [PunRPC]
     public void AutoDestroy()
     {
         PhotonNetwork.Destroy(gameObject);

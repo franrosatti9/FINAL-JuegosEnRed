@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviourPunCallbacks
     public Transform spawnPoint1;
     public Transform spawnPoint2;
     public Transform spawnPoint3;
+    public Transform spawnPoint4;
     public float currentTime;
     [SerializeField] GameObject winScreenTimeText;
     [SerializeField] float secondsToStart = 2f;
@@ -41,7 +42,7 @@ public class GameManager : MonoBehaviourPunCallbacks
             currentTime += Time.deltaTime;
         }
 
-        if (!PhotonNetwork.IsMasterClient) return;
+        //if (!PhotonNetwork.IsMasterClient) return;
         //if (Input.GetKeyDown(KeyCode.P)) CloseRoom();
     }
 

@@ -10,7 +10,12 @@ public class Arrow : MonoBehaviourPun
 
     private void Awake()
     {
-        if (!photonView.IsMine) Destroy(this);
+        // TAL VEZ HACER QUE LO INSTANCIE EL MASTER
+
+        if (!photonView.IsMine)
+        { 
+            if(!PhotonNetwork.IsMasterClient) Destroy(this);
+        }
         _rb = GetComponent<Rigidbody2D>();
     }
     void Start()
@@ -22,9 +27,7 @@ public class Arrow : MonoBehaviourPun
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-
-        // COMPORTAMIENTO DEL SPELL
-
+        if (!PhotonNetwork.IsMasterClient) return;
         if (collision.collider.gameObject.CompareTag("Shield"))
         {
             Debug.Log("Shield!");
@@ -34,10 +37,12 @@ public class Arrow : MonoBehaviourPun
         }
         else
         {
-            PhotonNetwork.Destroy(gameObject);
+            photonView.RPC("AutoDestroy", photonView.Owner);
+            //PhotonNetwork.Destroy(gameObject);
         }
     }
 
+    [PunRPC]
     public void AutoDestroy()
     {
         PhotonNetwork.Destroy(gameObject);

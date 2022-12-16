@@ -17,7 +17,7 @@ public class Trigger : MonoBehaviourPun
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!photonView.IsMine) return;
+        if (!PhotonNetwork.IsMasterClient) return; // TAL VEZ CAMBIAR
         if (collision.gameObject.CompareTag(tagToCompare))
         {
             if (activateOnce) GetComponent<Collider2D>().enabled = false;

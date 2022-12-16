@@ -232,7 +232,7 @@ MonoBehaviour:
   weaponPivot: {fileID: 7012069137047459170}
   jumpKey: 32
   _mousePos: {x: 0, y: 0, z: 0}
-  characterType: 0
+  characterType: 3
 --- !u!114 &7012069137013773935
 MonoBehaviour:
   m_ObjectHideFlags: 0

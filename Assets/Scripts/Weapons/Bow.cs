@@ -15,13 +15,17 @@ public class Bow : Weapon
 
     public override void Attack()
     {
-        if (!photonView.IsMine) return;
+        // CAPAZ HAY QUE PONER QUE EL MASTER HAGA EL ATTACK SI NO SPAWNEA
+        if (!PhotonNetwork.IsMasterClient) return;
+        //if (!photonView.IsMine) return;
         _anim.SetTrigger("Attack");
+
     }
 
     public void Shoot()
     {
-        if (!photonView.IsMine) return;
+        if (!PhotonNetwork.IsMasterClient) return;
+        Debug.Log("ARROW???");
         var arrowInstance = PhotonNetwork.Instantiate("Arrow", transform.position, Quaternion.identity);
         arrowInstance.transform.up = pivot.transform.right;
     }
