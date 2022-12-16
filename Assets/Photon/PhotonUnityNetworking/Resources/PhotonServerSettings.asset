@@ -39,6 +39,30 @@ MonoBehaviour:
   - ClickRpc
   - DestroyRpc
   - HeresWhy
+  - DestroySpaceship
+  - Fire
+  - LoseScreen
+  - QuitRoom
+  - RequestFlipValue
+  - RequestName
+  - RespawnSpaceship
+  - RestartGame
+  - SpawnSound
+  - SyncTime
+  - UpdateActivation
+  - UpdateName
+  - UpdateSetFlip
+  - UpdateSpawnPlayers
+  - UpdateStart
+  - WinScreen
+  - AutoDestroy
+  - RequestAddPlayer
+  - RequestConnectPlayer
+  - RequestProjectile
+  - RequestRemovePlayer
+  - UpdatePlayer
+  - UpdatePosition
+  - UpdateSelected
   DisableAutoOpenWizard: 1
   ShowSettings: 0
   DevRegionSetOnce: 0
