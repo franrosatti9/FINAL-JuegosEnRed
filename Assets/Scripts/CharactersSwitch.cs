@@ -64,6 +64,7 @@ public class CharactersSwitch : MonoBehaviour
 
     public void WarriorEnabled(bool enabled)
     {
+        warrior.StopMovement();
         warrior.enabled = enabled;
         warriorPivot.enabled = enabled;
         warriorView.enabled = enabled;
@@ -75,6 +76,7 @@ public class CharactersSwitch : MonoBehaviour
 
     public void ArcherEnabled(bool enabled)
     {
+        archer.StopMovement();
         archer.enabled = enabled;
         archerPivot.enabled = enabled;
         archerView.enabled = enabled;
@@ -86,6 +88,7 @@ public class CharactersSwitch : MonoBehaviour
 
     public void ShielderEnabled(bool enabled)
     {
+        shield.StopMovement();
         shield.enabled = enabled;
         shieldPivot.enabled = enabled;
         shieldView.enabled = enabled;
@@ -97,12 +100,13 @@ public class CharactersSwitch : MonoBehaviour
 
     public void WizardEnabled(bool enabled)
     {
+        wizard.StopMovement();
         wizard.enabled = enabled;
         wizardPivot.enabled = enabled;
         wizardView.enabled = enabled;
         wizardListener.enabled = enabled;
 
-        //if (enabled) wizardImage.sprite = wizardSelected;
-        //else wizardImage.sprite = wizardUnselected;
+        if (enabled) wizardImage.sprite = wizardSelected;
+        else wizardImage.sprite = wizardUnselected;
     }
 }

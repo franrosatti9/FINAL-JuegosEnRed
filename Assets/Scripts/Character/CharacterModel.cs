@@ -34,7 +34,7 @@ public class CharacterModel : MonoBehaviourPun
         {
             _nextAttackTime = Time.time + attackRate;
             weapon.Attack();
-            _audioSource.Play();
+            photonView.RPC("PlayAttackSound", RpcTarget.All);
         }
     }
 
@@ -46,6 +46,12 @@ public class CharacterModel : MonoBehaviourPun
     public void Die()
     {
         onDeath.Invoke();
+    }
+
+    [PunRPC]
+    public void PlayAttackSound()
+    {
+        _audioSource.Play();
     }
 
     /*[PunRPC]

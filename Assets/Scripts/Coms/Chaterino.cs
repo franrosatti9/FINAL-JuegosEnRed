@@ -6,12 +6,14 @@ using UnityEngine;
 using Photon.Chat;
 using Photon.Pun;
 using TMPro;
+using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
 public class Chaterino : MonoBehaviour, IChatClientListener
 {
     [SerializeField] private ChatClient _chatClient;
     [SerializeField] private TextMeshProUGUI _chatContent;
+    [SerializeField] private TextMeshProUGUI _placeHolderText;
     [SerializeField] private TMP_InputField _chatInput;
     [SerializeField] private string _channel;
     [SerializeField] private KeyCode _chatBind = KeyCode.Return;
@@ -117,12 +119,13 @@ public class Chaterino : MonoBehaviour, IChatClientListener
         bool isCommand = messageWords[0].StartsWith("/");
         Debug.Log(isCommand);
 
-        // Sending a Whisper Command.
+        // Sending a Command.
         if (isCommand)
         {
             CheckCommand(messageWords);
         }
 
+        // Sending a chat message
         else
         {
             _chatClient.PublishMessage(_channel, message);
@@ -151,13 +154,17 @@ public class Chaterino : MonoBehaviour, IChatClientListener
     private void EnableInput()
     {
         _enabledInput = true;
-        _chatInput.gameObject.SetActive(true);
+        _chatInput.GetComponent<Image>().enabled = true;
+        _chatInput.ActivateInputField();
+        _chatInput.Select();
     }
 
     private void DisableInput()
     {
         _enabledInput = false;
-        _chatInput.gameObject.SetActive(false);
+        _chatInput.GetComponent<Image>().enabled = false;
+        _chatInput.DeactivateInputField(true);
+        _placeHolderText.text = "";
     }
 
     private void CheckCommand(string[] messageWords)

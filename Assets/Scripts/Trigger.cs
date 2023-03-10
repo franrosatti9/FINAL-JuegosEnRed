@@ -8,12 +8,7 @@ public class Trigger : MonoBehaviourPun
 {
     [SerializeField] string tagToCompare;
     [SerializeField] bool activateOnce;
-    bool _activated = false;
     public UnityEvent onActivate;
-    void Start()
-    {
-        _activated = false;
-    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

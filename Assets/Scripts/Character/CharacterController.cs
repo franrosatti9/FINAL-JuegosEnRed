@@ -33,21 +33,15 @@ public class CharacterController : MonoBehaviourPun
         _model = GetComponent<CharacterModel>();  
     }
 
-    private void Start()
-    {
-        //var cam = GameObject.FindGameObjectWithTag("CinemachineCam");
-        //cam.GetComponent<Cinemachine.CinemachineVirtualCamera>().m_Follow = this.gameObject.transform;
-    }
     void Update()
     {
         var horizontal = Input.GetAxisRaw("Horizontal") * (flipX ? -1 : 1);
         var vertical = Input.GetAxisRaw("Vertical") * (flipY ? -1 : 1);
         _model.Move(new Vector2(horizontal, vertical));
 
-
         if (Input.GetMouseButtonDown(0))
         {
-            if (characterType == CharacterType.Archer || characterType == CharacterType.Wizard) 
+            if ((characterType == CharacterType.Archer || characterType == CharacterType.Wizard) && !PhotonNetwork.OfflineMode) 
             {
                 MasterManager.Instance.RPCMaster("RequestProjectile", PhotonNetwork.LocalPlayer);
                 return;        
@@ -60,13 +54,11 @@ public class CharacterController : MonoBehaviourPun
     {
         flipX = !flipX;
         flipY = !flipY;
-        //if (flipX == true) flipX 
-
     }
 
-    private void OnDisable()
+    public void StopMovement()
     {
-        //_model.Move(Vector2.zero);
+        _model.Move(Vector2.zero);
     }
 }
 

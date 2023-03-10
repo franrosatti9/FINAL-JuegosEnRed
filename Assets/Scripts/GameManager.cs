@@ -27,6 +27,7 @@ public class GameManager : MonoBehaviourPunCallbacks
         if (PhotonNetwork.IsMasterClient)
         {
             CheckStartGame();
+            PhotonNetwork.Instantiate("VoiceObject", Vector3.zero, Quaternion.identity);
         }
         else
         {
@@ -38,10 +39,6 @@ public class GameManager : MonoBehaviourPunCallbacks
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-
-        }
         if (isStarted)
         {
             currentTime += Time.deltaTime;
@@ -55,8 +52,6 @@ public class GameManager : MonoBehaviourPunCallbacks
         {
             PunVoiceClient.Instance.PrimaryRecorder.TransmitEnabled = false;
         }
-        //if (!PhotonNetwork.IsMasterClient) return;
-        //if (Input.GetKeyDown(KeyCode.P)) CloseRoom();
     }
 
     public override void OnPlayerEnteredRoom(Player newPlayer)
@@ -73,10 +68,7 @@ public class GameManager : MonoBehaviourPunCallbacks
         {
             Restart();
         }
-
-        // chequear diccionario de players para ver quien se fue
     }
-
 
     void CheckStartGame()
     {
@@ -102,7 +94,6 @@ public class GameManager : MonoBehaviourPunCallbacks
 
     void SpawnPlayers()
     {
-        // for players, mandar i como parametro de que numero les toca y guardarlo. rpctarget = player
         photonView.RPC("UpdateSpawnPlayers", RpcTarget.All);
         StartTimeSync();
     }

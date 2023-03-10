@@ -72,11 +72,6 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         status.text = "Joined Room failed";
         button.interactable = true;
     }
-
-    /*public override void OnLeftRoom()
-    {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Menu");
-    }*/
     #endregion
 
     public void Connect()
@@ -88,7 +83,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         PhotonNetwork.NickName = nicknameInput.text;
 
         RoomOptions options = new RoomOptions();
-        options.MaxPlayers = 5;
+        options.MaxPlayers = 4;
         options.IsOpen = true;
         options.IsVisible = true;
 
@@ -116,11 +111,6 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     public void DisconnectPhoton()
     {
         PhotonNetwork.Disconnect();
-    }
-
-    public override void OnPlayerLeftRoom(Player otherPlayer)
-    {
-        
     }
 
     public void ConnectToPhoton()

@@ -72,8 +72,8 @@ public class Spell : MonoBehaviourPun
         }
         else
         {
-            photonView.RPC("AutoDestroy", photonView.Owner);
-            //PhotonNetwork.Destroy(gameObject);
+            //photonView.RPC("AutoDestroy", photonView.Owner);
+            PhotonNetwork.Destroy(gameObject);
         }
     }
     

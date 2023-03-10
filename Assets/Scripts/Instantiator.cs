@@ -30,8 +30,7 @@ public class Instantiator : MonoBehaviour
             if (players[i].IsLocal)
             {
                 Debug.Log("Spawn?");
-                if (i == 0) return;
-                if (i == 1)
+                if (i == 0)
                 {
                     /*var obj = PhotonNetwork.Instantiate("PlayerWarrior", spawn1.position, Quaternion.identity);
                     var character = obj.GetComponent<CharacterModel>();
@@ -40,7 +39,7 @@ public class Instantiator : MonoBehaviour
                     MasterManager.Instance.RPC("RequestConnectPlayer", PhotonNetwork.LocalPlayer, PhotonNetwork.LocalPlayer, "PlayerWarrior", spawn1);
 
                 }
-                if (i == 2)
+                if (i == 1)
                 {
                     /*var obj = PhotonNetwork.Instantiate("PlayerArcher", spawn2.position, Quaternion.identity);
                     var character = obj.GetComponent<CharacterModel>();
@@ -48,7 +47,7 @@ public class Instantiator : MonoBehaviour
                     MasterManager.Instance.RPC("UpdatePlayer", RpcTarget.All, PhotonNetwork.LocalPlayer, character.photonView.ViewID);*/
                     MasterManager.Instance.RPC("RequestConnectPlayer", PhotonNetwork.LocalPlayer, PhotonNetwork.LocalPlayer, "PlayerArcher", spawn2);
                 }
-                if (i == 3)
+                if (i == 2)
                 {
                     /*var obj = PhotonNetwork.Instantiate("PlayerShield", spawn3.position, Quaternion.identity);
                     var character = obj.GetComponent<CharacterModel>();
@@ -56,7 +55,7 @@ public class Instantiator : MonoBehaviour
                     MasterManager.Instance.RPC("UpdatePlayer", RpcTarget.All, PhotonNetwork.LocalPlayer, character.photonView.ViewID);*/
                     MasterManager.Instance.RPC("RequestConnectPlayer", PhotonNetwork.LocalPlayer, PhotonNetwork.LocalPlayer, "PlayerShield", spawn3);
                 }
-                if (i == 4)
+                if (i == 3)
                 {
                     /*var obj = PhotonNetwork.Instantiate("PlayerWizard", spawn4.position, Quaternion.identity);
                     var character = obj.GetComponent<CharacterModel>();

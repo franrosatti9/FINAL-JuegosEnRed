@@ -39,7 +39,7 @@ public class RoomUI : MonoBehaviourPunCallbacks
 
         text.text = roomName;
         string maxPlayer = "4";
-        string countPlayer = (PhotonNetwork.CurrentRoom.PlayerCount - 1).ToString();
+        string countPlayer = PhotonNetwork.CurrentRoom.PlayerCount.ToString();
 
         text.text = roomName + ": " + countPlayer + "/" + maxPlayer;
     }
