@@ -28,7 +28,7 @@ MonoBehaviour:
     AuthMode: 0
     EnableLobbyStatistics: 0
     NetworkLogging: 1
-  DevRegion: sa
+  DevRegion: 
   PunLogging: 0
   EnableSupportLogger: 0
   RunInBackground: 1
@@ -66,6 +66,7 @@ MonoBehaviour:
   - DeactivateObstacles
   - ForceDisconnect
   - PlayAttackSound
+  - PlaySwitchSound
   DisableAutoOpenWizard: 1
   ShowSettings: 1
   DevRegionSetOnce: 1

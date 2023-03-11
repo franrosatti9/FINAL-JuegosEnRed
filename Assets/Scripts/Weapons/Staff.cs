@@ -10,9 +10,12 @@ public class Staff : Weapon
     [SerializeField] Transform spellPos;
     public GameObject selected1, selected2;
 
+    AudioSource _audioSource;
+
     private void Awake()
     {
         _anim = GetComponent<Animator>();
+        _audioSource = GetComponent<AudioSource>();
         selected1 = null;
         selected2 = null;
     } 
@@ -20,7 +23,6 @@ public class Staff : Weapon
     public override void Attack()
     {
         if (!PhotonNetwork.IsMasterClient) return;
-        //if (!photonView.IsMine) return;
         Shoot();
     }
 
@@ -40,13 +42,14 @@ public class Staff : Weapon
         //selected2.transform.position = aux;
         selected1.GetComponent<SpellSelectable>().ChangePosition(selected2.transform.position);
         selected2.GetComponent<SpellSelectable>().ChangePosition(aux);
+
+        photonView.RPC("PlaySwitchSound", RpcTarget.All);
         //photonView.RPC("UpdateSwitchPlaces", RpcTarget.Others, selected1, selected2);
     }
-    /*[PunRPC]
-    public void UpdateSwitchPlaces(GameObject selected1, GameObject selected2)
+
+    [PunRPC]
+    public void PlaySwitchSound()
     {
-        Vector2 aux = selected1.transform.position;
-        selected1.transform.position = selected2.transform.position;
-        selected2.transform.position = aux;
-    }*/
+        _audioSource.Play();
+    }
 }

@@ -8,16 +8,16 @@ using Photon.Voice.PUN;
 public class GameManager : MonoBehaviourPunCallbacks
 {
     public bool isStarted = false;
-    public GameObject loseScreen;
-    public GameObject winScreen;
     public Transform spawnPoint1;
     public Transform spawnPoint2;
     public Transform spawnPoint3;
     public Transform spawnPoint4;
     public float currentTime;
-    [SerializeField] GameObject winScreenTimeText;
     [SerializeField] float secondsToStart = 2f;
+    [SerializeField] GameObject winScreen;
+    [SerializeField] GameObject winScreenTimeText;
     [SerializeField] VictoryZone victoryZone;
+    [SerializeField] GameObject loseScreen;
 
     public Action onPlayersJoined = delegate { };
     public Dictionary<int, Player> players = new Dictionary<int, Player>();
@@ -26,7 +26,7 @@ public class GameManager : MonoBehaviourPunCallbacks
     {
         if (PhotonNetwork.IsMasterClient)
         {
-            CheckStartGame();
+            if(!isStarted) CheckStartGame();
             PhotonNetwork.Instantiate("VoiceObject", Vector3.zero, Quaternion.identity);
         }
         else
@@ -58,7 +58,7 @@ public class GameManager : MonoBehaviourPunCallbacks
     {
         if (PhotonNetwork.IsMasterClient)
         {
-            CheckStartGame();
+            if (!isStarted)  CheckStartGame();
         }
     }
 
@@ -108,6 +108,7 @@ public class GameManager : MonoBehaviourPunCallbacks
     void Restart()
     {
         photonView.RPC("RestartGame", RpcTarget.All);
+        photonView.RPC("UpdateStart", RpcTarget.All, false);
     }
 
     public void CloseRoom()
@@ -132,6 +133,7 @@ public class GameManager : MonoBehaviourPunCallbacks
     public void LoseScreen()
     {
         loseScreen.SetActive(true);
+        
     }
 
     [PunRPC]
@@ -151,8 +153,9 @@ public class GameManager : MonoBehaviourPunCallbacks
     [PunRPC]
     public void QuitRoom()
     {
-        PhotonNetwork.LoadLevel("Menu");
         PhotonNetwork.LeaveRoom();
+        PhotonNetwork.Disconnect();
+        PhotonNetwork.LoadLevel("Menu");
     }
 
     [PunRPC]

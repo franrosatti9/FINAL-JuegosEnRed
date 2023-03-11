@@ -2400,16 +2400,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isStarted: 0
-  loseScreen: {fileID: 487179693}
-  winScreen: {fileID: 2082009818}
   spawnPoint1: {fileID: 0}
   spawnPoint2: {fileID: 0}
   spawnPoint3: {fileID: 0}
   spawnPoint4: {fileID: 0}
   currentTime: 0
-  winScreenTimeText: {fileID: 893747337}
   secondsToStart: 2
+  winScreen: {fileID: 2082009818}
+  winScreenTimeText: {fileID: 893747337}
   victoryZone: {fileID: 2056760263}
+  loseScreen: {fileID: 487179693}
 --- !u!4 &282210344
 Transform:
   m_ObjectHideFlags: 0
@@ -3903,7 +3903,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 659706371
   m_SortingLayer: 1
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: -5218343774171583117, guid: a52a61e217c71a64db0233584b25e5a1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8362,7 +8362,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d18eabb8b0577e1458280fbea954dff6, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.8
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -8909,7 +8909,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 9c6cf48d46773374fb535e512575ad76, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.8
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -10846,7 +10846,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 659706371
   m_SortingLayer: 1
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 6200746660751558547, guid: a52a61e217c71a64db0233584b25e5a1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -11509,7 +11509,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d18eabb8b0577e1458280fbea954dff6, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.8
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -11735,14 +11735,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a160d838ff8b4b4693ac20007e008c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_AssetsPPU: 120
-  m_RefResolutionX: 1920
-  m_RefResolutionY: 1080
+  m_AssetsPPU: 20
+  m_RefResolutionX: 320
+  m_RefResolutionY: 180
   m_UpscaleRT: 0
-  m_PixelSnapping: 1
-  m_CropFrameX: 0
-  m_CropFrameY: 0
-  m_StretchFill: 0
+  m_PixelSnapping: 0
+  m_CropFrameX: 1
+  m_CropFrameY: 1
+  m_StretchFill: 1
 --- !u!1 &893747337
 GameObject:
   m_ObjectHideFlags: 0
@@ -12739,7 +12739,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 9c6cf48d46773374fb535e512575ad76, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.8
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -13461,7 +13461,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 9c6cf48d46773374fb535e512575ad76, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.8
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -14461,7 +14461,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 12.333537
+  MaxDistance: 21
   Pan2D: 0
   rolloffMode: 2
   BypassEffects: 0
@@ -14499,7 +14499,7 @@ AudioSource:
       outWeight: 0
     - serializedVersion: 3
       time: 1
-      value: 0.00403443
+      value: 0
       inSlope: -0.3756513
       outSlope: -0.3756513
       tangentMode: 0
@@ -14514,7 +14514,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
+      value: 0.802
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -14783,7 +14783,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 9c6cf48d46773374fb535e512575ad76, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.8
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -16187,7 +16187,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 9c6cf48d46773374fb535e512575ad76, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.8
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -49278,7 +49278,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d18eabb8b0577e1458280fbea954dff6, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.8
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -51132,10 +51132,6 @@ PrefabInstance:
       propertyPath: sceneViewId
       value: 38
       objectReference: {fileID: 0}
-    - target: {fileID: 2873252650014444461, guid: 695304f9f65a2bd439c2cd29f6ccf2f1, type: 3}
-      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7012069137013773929, guid: 695304f9f65a2bd439c2cd29f6ccf2f1, type: 3}
       propertyPath: sceneViewId
       value: 36
@@ -51752,7 +51748,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 9c6cf48d46773374fb535e512575ad76, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.8
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -52117,7 +52113,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1847024242}
   m_LocalRotation: {x: -0, y: -0, z: 0.70710707, w: 0.70710653}
-  m_LocalPosition: {x: -7, y: 15.65, z: 0}
+  m_LocalPosition: {x: -7, y: 15.64, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1375430605}
@@ -52138,7 +52134,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d18eabb8b0577e1458280fbea954dff6, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.8
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -52353,7 +52349,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 9c6cf48d46773374fb535e512575ad76, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.8
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -54863,7 +54859,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 659706371
   m_SortingLayer: 1
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 3343932541772403697, guid: a52a61e217c71a64db0233584b25e5a1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
